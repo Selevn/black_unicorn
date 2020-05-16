@@ -1,0 +1,43 @@
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+input
+{
+    font-size:.95rem;
+    border-radius: .3rem;
+    border:.1rem solid #c8d2b8;
+    background-color: #dbe8c9;
+    min-height: 1.5rem;
+    padding:.2rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    margin:.5rem;
+}
+.input_field:focus
+{
+    border:.1rem solid #8c9684;
+}
+.log_reg_fields
+{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    text-align: center;
+    width:30%;
+    border:1px solid gray;
+    margin:auto;
+    margin-top: 3rem;
+    height:11rem;
+}
+
+#go_button
+{
+    height:1.7rem;
+    width:5rem;
+    transition: .3s;
+}
+#go_button:hover
+{
+    background-color: #aaaaaa;
+    cursor:pointer;
+}

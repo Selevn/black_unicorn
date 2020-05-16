@@ -1,0 +1,32 @@
+{
+  "name": "black_unicorn",
+  "version": "1.0.0",
+  "description": "secure chat without admin control",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selevn/black_unicorn.git"
+  },
+  "keywords": [
+    "messanger"
+  ],
+  "author": "Selevn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Selevn/black_unicorn/issues"
+  },
+  "homepage": "https://github.com/Selevn/black_unicorn#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-hbs": "^2.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.13",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  }
+}

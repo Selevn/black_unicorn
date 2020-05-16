@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href = "/css/log_reg.css">
+    <title>{{title}}</title>
+</head>
+<body>
+<div class="log_reg_fields">
+    <input class = "input_field" type="email" name="email" placeholder="Email" id = "email"><br>
+    <input class = "input_field" type="text" name="username" placeholder="Login" id = "login"><br>
+    <input class = "input_field" type="password" name="password" placeholder="Password" id = "pas"><br>
+    <input id="go_button" type="button" value="Register" onclick = "send_data('register')">
+</div>
+<p style="text-align: center; font-family: sans-serif">
+With us yet? <a href="/login">Login!</a>
+</p>
+</body>
+<script src="/js/loginer.js"></script>
+<script src="/js/crypt_data.js"></script>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href = "/css/log_reg.css">
+    <title>{{title}}</title>
+</head>
+<body>
+<div class="log_reg_fields">
+    <input class = "input_field" type="text" name="username" placeholder="Login" id = "login"><br>
+    <input class = "input_field" type="password" name="password" placeholder="Password" id = "pas"><br>
+    <input id="go_button" type="button" value="Login" onclick = "send_data('login')">
+</div>
+<p style="text-align: center; font-family: sans-serif">
+Not with us? <a href="/register">Register!</a>
+</p>
+</body>
+<script src="/js/loginer.js"></script>
+<script src="/js/crypt_data.js"></script>
+</html>

@@ -1,0 +1,16 @@
+.my_friends
+{
+    border-top:.1rem solid #efefef;
+}
+.friend-card
+{
+    padding-top: .5rem;
+    margin-top:.5rem;
+    min-height:3rem;
+    border:.1rem solid #efefef;
+}
+.is_online
+{
+    color: #00b900;
+    float:right;
+}
